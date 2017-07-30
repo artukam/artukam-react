@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+	.social-media-container{
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	.social-media-container{
+		margin-top: 20px;
+	}
+}
+
+.social-media-box {
+	text-align:center;
+	padding-bottom: 30px; 
+}
+
+.social-media-logo {
+	color: #3685a4;
+	cursor:pointer;
+}
+
+.social-media-logo:hover {
+	color: #45abd3;
+	cursor:pointer;
+}

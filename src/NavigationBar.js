@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { Link, withRouter } from 'react-router-dom';
 import NavigationCard from './NavigationCard';
+import SocialMediaCard from './SocialMediaCard'
 import './NavigationBar.css';
 import logo from './images/artukam-logo.png';
 
 class NavigationBar extends Component {
     render() {
         return (
-            <div className="col-sm-2">
+            <div className="col-sm-3 col-md-2">
                 <nav className="navbar navbar-artukam navbar-fixed-side">
                     <div className="container-fluid">
                         <div className="navbar-header navbar-logo-container">
@@ -17,13 +19,16 @@ class NavigationBar extends Component {
                                 <span className="icon-bar" />
                             </button>
                             <div className="logo-div">
-                                <img className="artukam-logo" src={logo} alt="artukam logo" />
+                                <Link to="/">
+                                    <img className="artukam-logo" src={logo} alt="artukam logo" />
+                                </Link>
                             </div>
                         </div>
                         <div className="collapse navbar-collapse" id="artu-navbar">
-                            <NavigationCard text="ABOUT"/>
-                            <NavigationCard text="PORTFOLIO"/>
-                            <NavigationCard text="CONTACT"/>
+                            <NavigationCard status={this.props.location.pathname === "/"} path="/" text="ABOUT"/>
+                            <NavigationCard status={this.props.location.pathname === "/portfolio"} path="/portfolio" text="PORTFOLIO"/>
+                            <NavigationCard status={this.props.location.pathname === "/contact"} path="/contact" text="CONTACT"/>
+                            <SocialMediaCard />
                         </div>
                     </div>
                 </nav>
@@ -32,4 +37,4 @@ class NavigationBar extends Component {
     }
 }
 
-export default NavigationBar;
+export default withRouter(NavigationBar);
