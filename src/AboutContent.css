@@ -1,0 +1,49 @@
+h3, h4 {
+	color:#ff7d00;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.outer-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.normal-box {
+	padding-bottom: 30px;
+}
+
+.inverse-box {
+	color:white;
+	background-color:#002b36;
+	padding-bottom: 30px;
+}
+
+.inverse-hr {
+	border-top: 1px solid #ff7d00;
+}
+
+.img-container {
+	margin-bottom: 30px;
+}
+
+.profile-pic {
+	max-height: 200px;
+	margin: 0 auto;
+}
+
+.experience-container {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.company-logo-container {
+	margin-bottom:10px;
+}
+
+.company-logo {
+	max-height: 100px;
+}
+
+.bold-text {
+	font-weight: 800;
+}

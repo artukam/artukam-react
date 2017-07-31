@@ -9,7 +9,7 @@ class NavigationBar extends Component {
     render() {
         return (
             <div className="col-sm-3 col-md-2">
-                <nav className="navbar navbar-artukam navbar-fixed-side">
+                <nav className="navbar navbar-fixed-side navbar-artukam">
                     <div className="container-fluid">
                         <div className="navbar-header navbar-logo-container">
                             <button className="navbar-toggle btn-artukam" data-target="#artu-navbar" data-toggle="collapse">

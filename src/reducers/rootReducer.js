@@ -1,5 +1,7 @@
 const DEFAULT_STATE = {
-	random: "",
+	portfolio: [],
+	filters:[],
+	currentFilter: "",
 }
 
 export default (state=DEFAULT_STATE, action={type:null}) => {

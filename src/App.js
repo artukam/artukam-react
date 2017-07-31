@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import NavigationBar from './NavigationBar';
+import MainContent from './MainContent';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="container-fluid">
         <div className="row">
            <NavigationBar />
+           <MainContent />
         </div>
       </div>
     );
