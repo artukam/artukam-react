@@ -12,7 +12,7 @@ const AboutContent = props => {
 					<hr className="inverse-hr" />
 				</div>
 				<div className="col-xs-12 col-sm-2 img-container">
-					<img className="img-responsive img-circle profile-pic" src={profilePic} />
+					<img className="img-responsive img-circle profile-pic" src={profilePic} alt="Arthur Kam"/>
 				</div>
 				<div className="col-xs-12 col-sm-10">
 					<p>
@@ -31,7 +31,7 @@ const AboutContent = props => {
 				<div className="col-xs-12 outer-container experience-container">
 					<div className="col-xs-12 col-sm-2">
 						<div className="company-logo-container">
-							<img className="img-responsive img-circle company-logo" src={placeholderLogo} />
+							<img className="img-responsive img-circle company-logo" src={placeholderLogo} alt="Placeholder company logo"/>
 						</div>
 						<div>
 							<p className="bold-text">[Company name]</p>
@@ -46,7 +46,7 @@ const AboutContent = props => {
 				<div className="col-xs-12 outer-container experience-container">
 					<div className="col-xs-12 col-sm-2">
 						<div className="company-logo-container">
-							<img className="img-responsive img-circle company-logo" src={placeholderLogo} />
+							<img className="img-responsive img-circle company-logo" src={placeholderLogo} src={placeholderLogo} alt="Placeholder company logo 2"/>
 						</div>
 						<div>
 							<p className="bold-text">[Company name]</p>

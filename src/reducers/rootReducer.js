@@ -1,7 +1,8 @@
 const DEFAULT_STATE = {
 	portfolio: [],
-	filters:[],
-	currentFilter: "",
+	filters:["All", "Javascript", "Python", "Ruby"],
+	currentFilter: "All",
+	currentView: [],
 }
 
 export default (state=DEFAULT_STATE, action={type:null}) => {

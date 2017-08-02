@@ -1,0 +1,39 @@
+.outer-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+.normal-box {
+	padding-bottom: 30px;
+}
+
+.contact-box {
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.contact-box a {
+	text-align:left;
+	color: black;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+.contact-box a:hover {
+	text-align:left;
+	padding-bottom: 20px;
+	color: #45abd3;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.contact-box table tr a td {
+	padding-bottom: 20px;
+}
+
+.contact-text {
+	padding-left: 40px;
+}
