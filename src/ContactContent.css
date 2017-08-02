@@ -15,25 +15,28 @@
 	padding-right: 0px;
 }
 
-.contact-box a {
+.contact-box tr {
 	text-align:left;
 	color: black;
-	cursor:pointer;
-	vertical-align:middle;
+	vertical-align:top;
 }
 
-.contact-box a:hover {
+.contact-box tr:hover {
 	text-align:left;
+}
+
+.contact-box table tr td {
 	padding-bottom: 20px;
-	color: #45abd3;
-	cursor:pointer;
+	vertical-align: middle;
+}
+
+.contact-box table tr td a {
+	color: black;
 	text-decoration: none;
+	cursor:pointer;
+	padding-left: 20px;
 }
 
-.contact-box table tr a td {
-	padding-bottom: 20px;
-}
-
-.contact-text {
-	padding-left: 40px;
+.contact-box table tr td a:hover {
+	color: #45abd3;
 }

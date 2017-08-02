@@ -1,0 +1,67 @@
+.outer-container {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+
+.outer-container h2 {
+	margin-bottom: 25px;
+}
+
+.inverse-box {
+	color:white;
+	background-color:#002b36;
+	padding-bottom: 5px;
+}
+
+.show-text {
+	color: #007b9a;
+	padding-right: 15px;
+}
+
+.btn:focus ,.btn:focus:active {
+	outline: none;
+	color:white;
+}
+
+.btn-filter-active {
+	min-width: 60px;
+	background-color: #004c60;
+	border: 1px solid #007b9a;
+	border-radius: 16px;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+
+.btn-filter-active:hover {
+	color:white;
+	background-color: #004c60;
+}
+
+.btn-filter-inactive {
+	min-width: 60px;
+	background-color: #002b36;
+	border: 1px solid #007b9a;
+	border-radius: 16px;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+
+.btn-filter-inactive:hover {
+	color:white;
+	background-color: #004c60;
+}
+
+.project-card-container {
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.project-name-text {
+	color: grey;
+	margin-bottom:0px;
+}
+
+.project-role-text {
+	font-weight: 800;
+}

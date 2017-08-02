@@ -14,46 +14,48 @@ const ContactContent = props => {
 				</div>
 				<div className="col-xs-12 contact-box">
 					<table>
-						<tr>
-							<a href="mailto:ksk.arthur@gmail.com">
+						<tbody>
+							<tr>
 								<td>
 									<i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
 								</td>
 								<td>
-									<span className="contact-text">Email</span>
+									<a href="mailto:ksk.arthur@gmail.com">
+										<span className="contact-text">Email</span>
+									</a>
 								</td>
-							</a>
-						</tr>
-						<tr>
-							<a href="https://www.linkedin.com/in/arthur-kam-43450739/" target="_blank" rel="noopener noreferrer">
+							</tr>
+							<tr>
 								<td>
 									<i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
 								</td>
 								<td>
-									<span className="contact-text">InMail</span>
+									<a href="https://www.linkedin.com/in/arthur-kam-43450739/" target="_blank" rel="noopener noreferrer">
+										<span className="contact-text">InMail</span>
+									</a>
 								</td>
-							</a>
-						</tr>
-						<tr>
-							<a href="https://angel.co/arthur-kam" target="_blank" rel="noopener noreferrer">
+							</tr>
+							<tr>
 								<td>
 									<i className="fa fa-angellist fa-2x" aria-hidden="true"></i>
 								</td>
 								<td>
-									<span className="contact-text">Message</span>
+									<a href="https://angel.co/arthur-kam" target="_blank" rel="noopener noreferrer">
+										<span className="contact-text">Message</span>
+									</a>
 								</td>
-							</a>
-						</tr>
-						<tr>
-							<a href="https://twitter.com/theoryium_au" target="_blank" rel="noopener noreferrer">
+							</tr>
+							<tr>
 								<td>
 									<i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
 								</td>
 								<td>
-									<span className="contact-text">Tweet</span>
+									<a href="https://twitter.com/theoryium_au" target="_blank" rel="noopener noreferrer">
+										<span className="contact-text">Tweet</span>
+									</a>
 								</td>
-							</a>
-						</tr>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 			</div>
