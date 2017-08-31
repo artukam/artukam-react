@@ -1,4 +1,3 @@
-import PlaceholderProjectImage from "../images/placeholder-project.png";
 import courseReportSpread from "../images/course_report_spread.png";
 import tradecraftSpread from "../images/tradecraft_spread.png";
 import eplSpread from "../images/epl_spread.png";

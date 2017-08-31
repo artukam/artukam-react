@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutContent.css';
 import profilePic from './images/artukam-profile-pic.png';
-import placeholderLogo from './images/placeholder-logo.png';
 import courseReportLogo from './images/course_report_logo.png';
 import tradecraftLogo from './images/tradecraft_logo.png';
 import corrsLogo from './images/corrs_logo.png';
@@ -50,16 +49,14 @@ const AboutContent = props => {
 							Full stack software engineer assisting with the maintenance and optimising of the Course Report website.
 						</p>
 						<p>
-							<p>
-								Notable achievements include:
-							</p>
-							<ul>
-								<li>generating SEO traffic for platform that receives 100,000+ monthly views through developing index pages for cities, technologies, and career tracks using JavaScript and Ruby on Rails;</li>
-								<li>integrated Geocoder (location) gem into Ruby on Rails RESTful backend to target users on cities index page and query top 8 closest cities with educational sites;</li>
-								<li>reducing test suite runtime by > 70% through implementing automated background testing and mock geocoder to provide response for API requests utilizing Ruby and RSpec Guard; and</li>
-								<li>enhanced code coverage for Ruby on Rails models and controllers by 20% more unit tests in RSpec.</li>
-							</ul>
+							Notable achievements include:
 						</p>
+						<ul>
+							<li>generating SEO traffic for platform that receives 100,000+ monthly views through developing index pages for cities, technologies, and career tracks using JavaScript and Ruby on Rails;</li>
+							<li>integrated Geocoder (location) gem into Ruby on Rails RESTful backend to target users on cities index page and query top 8 closest cities with educational sites;</li>
+							<li>reducing test suite runtime by > 70% through implementing automated background testing and mock geocoder to provide response for API requests utilizing Ruby and RSpec Guard; and</li>
+							<li>enhanced code coverage for Ruby on Rails models and controllers by 20% more unit tests in RSpec.</li>
+						</ul>
 					</div>
 				</div>
 				<div className="col-xs-12 outer-container experience-container">
@@ -78,15 +75,13 @@ const AboutContent = props => {
 							Full stack software engineer tasked with building new application designed to help job seekers to track opportunities and collate research on companies.
 						</p>
 						<p>
-							<p>
-								Notable achievements include:
-							</p>
-							<ul>
-								<li>architecting core functionality for job search and data sharing platform using Javascript, ReactJS and Redux, enabling design students to save 10+ hours weekly in their job search;</li>
-								<li>refining user experience (UX) through creating over 20 ReactJS components, including drag and drop functionality for job stages, site navigation, and photo upload with UploadCare API integration; and</li>
-								<li>utilizing Redux and redux-persist to maintain user data through page refreshes until user logout is triggered, refactoring over 80% of existing local state to Redux store.</li>
-							</ul>
+							Notable achievements include:
 						</p>
+						<ul>
+							<li>architecting core functionality for job search and data sharing platform using Javascript, ReactJS and Redux, enabling design students to save 10+ hours weekly in their job search;</li>
+							<li>refining user experience (UX) through creating over 20 ReactJS components, including drag and drop functionality for job stages, site navigation, and photo upload with UploadCare API integration; and</li>
+							<li>utilizing Redux and redux-persist to maintain user data through page refreshes until user logout is triggered, refactoring over 80% of existing local state to Redux store.</li>
+						</ul>
 					</div>
 				</div>
 				<div className="col-xs-12 outer-container experience-container">
@@ -103,15 +98,13 @@ const AboutContent = props => {
 						<p className="bold-text">Lawyer</p>
 						<p>Corporate lawyer specialising in public and private mergers and acquisitions as well as equity capital raisings</p>
 						<p>
-							<p>
-								Notable transactions include advising:
-							</p>
-							<ul>
-								<li>the consortium between Macquarie Group and China Resources on their AUD 1.7 billion acquisition of the majority of share in the radiation oncology and cardiac services company GenesisCare;</li>
-								<li>Restaurant Brands New Zealand on their AUD $82 million acquisition of QSR Pty Ltd, the largest franchisee in New South Wales, Australia; and</li>
-								<li>Affinity Education Group on their successful defence against the hostile takeover by G8 Education Limited and the implementation of their AUD 212 million scheme of arrangement with Anchorage Capital Partners.</li>
-							</ul>
+							Notable transactions include advising:
 						</p>
+						<ul>
+							<li>the consortium between Macquarie Group and China Resources on their AUD 1.7 billion acquisition of the majority of share in the radiation oncology and cardiac services company GenesisCare;</li>
+							<li>Restaurant Brands New Zealand on their AUD $82 million acquisition of QSR Pty Ltd, the largest franchisee in New South Wales, Australia; and</li>
+							<li>Affinity Education Group on their successful defence against the hostile takeover by G8 Education Limited and the implementation of their AUD 212 million scheme of arrangement with Anchorage Capital Partners.</li>
+						</ul>
 					</div>
 				</div>
 				<div className="col-xs-12 outer-container">
