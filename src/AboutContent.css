@@ -6,6 +6,7 @@ h3, h4 {
 .outer-container {
 	padding-left: 0px;
 	padding-right: 0px;
+	padding-bottom: 0px;
 }
 
 .normal-box {
@@ -15,7 +16,7 @@ h3, h4 {
 .inverse-box {
 	color:white;
 	background-color:#002b36;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .inverse-hr {

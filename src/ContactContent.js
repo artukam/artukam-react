@@ -7,7 +7,7 @@ const ContactContent = props => {
 			<div className="col-xs-12 normal-box">
 				<div className="col-xs-12 outer-container">
 					<h2>Get in touch</h2>
-					<hr />
+					<hr className="inverse-hr" />
 					<p>
 						If you have any questions or want to get in touch, please feel free to reach out by:
 					</p>

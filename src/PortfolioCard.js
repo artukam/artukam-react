@@ -5,7 +5,7 @@ const PortfolioCard = props => {
 		<span key={idx}> {val} </span>
 	))
 	return (
-		<div className="col-xs-12 col-sm-6 col-md-4 project-card-container">
+		<div className="col-xs-12 col-sm-6 col-lg-4 project-card-container">
 			<div className="col-xs-12 outer-container">
 				<div className="col-xs-11 outer-container">
 					<img src={props.projectImage}
@@ -17,7 +17,7 @@ const PortfolioCard = props => {
 				<p className="project-name-text">{props.projectName}</p>
 				<p className="project-role-text">{props.role}</p>
 				<p>{props.description}</p>
-				<p>Stack: {technologyList}</p>
+				<p><em>Stack</em>: {technologyList}</p>
 			</div>
 		</div>
 	)
