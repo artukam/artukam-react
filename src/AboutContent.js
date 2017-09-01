@@ -46,7 +46,7 @@ const AboutContent = props => {
 					<div className="col-xs-12 col-sm-10">
 						<p className="bold-text">Software Developer</p>
 						<p>
-							Full stack software engineer assisting with the maintenance and optimising of the Course Report website.
+							Full stack software engineer assisting with the optimisation of the Course Report website.
 						</p>
 						<p>
 							Notable achievements include:
@@ -96,13 +96,13 @@ const AboutContent = props => {
 					</div>
 					<div className="col-xs-12 col-sm-10">
 						<p className="bold-text">Lawyer</p>
-						<p>Corporate lawyer specialising in public and private mergers and acquisitions as well as equity capital raisings</p>
+						<p>Corporate lawyer specialising in public and private mergers and acquisitions as well as equity capital raisings.</p>
 						<p>
 							Notable transactions include advising:
 						</p>
 						<ul>
-							<li>the consortium between Macquarie Group and China Resources on their AUD 1.7 billion acquisition of the majority of share in the radiation oncology and cardiac services company GenesisCare;</li>
-							<li>Restaurant Brands New Zealand on their AUD $82 million acquisition of QSR Pty Ltd, the largest franchisee in New South Wales, Australia; and</li>
+							<li>the consortium between Macquarie Group and China Resources on their AUD 1.7 billion acquisition of the majority of shares in the radiation oncology and cardiac services company GenesisCare;</li>
+							<li>Restaurant Brands New Zealand on their AUD 82 million acquisition of QSR Pty Ltd, the largest franchisee in New South Wales, Australia; and</li>
 							<li>Affinity Education Group on their successful defence against the hostile takeover by G8 Education Limited and the implementation of their AUD 212 million scheme of arrangement with Anchorage Capital Partners.</li>
 						</ul>
 					</div>
@@ -119,7 +119,7 @@ const AboutContent = props => {
 					</div>
 					<div className="col-xs-12 col-sm-10">
 						<p className="bold-text">Software Engineer</p>
-						<p>EPL statistics platform to chart out player offensive output for the top 6 teams from years of 2010 to 2017.</p>
+						<p>EPL statistics platform to chart out player offensive output for the top 6 teams from years 2010 to 2017.</p>
 						<ul>
 							<li>Scraped and compiled over 1,000 lines of data from ESPN.com for football (soccer) players of the top 6 teams of the English Premier League for the last 6 seasons using Python and BeautifulSoup.</li>
 							<li>Crafted in-depth charts mapping out key offense statistics for each player that can be filtered by team, position, metric and year utilizing JavaScript and D3.js.</li>

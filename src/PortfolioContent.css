@@ -18,6 +18,10 @@
 	padding-right: 15px;
 }
 
+.btn {
+	margin-bottom: 5px;
+}
+
 .btn:focus ,.btn:focus:active {
 	outline: none;
 	color:white;
